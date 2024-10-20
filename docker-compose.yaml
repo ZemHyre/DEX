@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  blockchain:
+    build:
+      context: ./blockchain
+    ports:
+      - "8545:8545"
+
+  frontend:
+    build:
+      context: ./frontend/dexweb
+    ports:
+      - "8080:8080"
+    depends_on:
+      - blockchain

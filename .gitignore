@@ -4,3 +4,4 @@
 .sudo_as_admin_successful
 .cache/
 .ssh/
+.local/
