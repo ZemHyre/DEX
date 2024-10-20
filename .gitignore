@@ -2,6 +2,8 @@
 .bashrc
 .profile
 .sudo_as_admin_successful
+.wget-hsts
+.vscode-server/
 .cache/
 .ssh/
 .local/
